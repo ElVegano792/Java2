@@ -158,7 +158,6 @@ public class HolaMundo { // clase principal
 		edad = 56; */
 		// int edad = 56;
 		
-		System.out.println("Hola mundo");
 		
 	}
 
