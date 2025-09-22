@@ -28,14 +28,17 @@ public class BuclesForYWhile {
 		i++;
 	}*/
 
-	int tecla = 9;
-	while(tecla !=0) {
+	//int tecla = 9;
+	int tecla;
+	do {
+	//while(tecla !=0) {
 		System.out.println("Escribe un entero. 0 para salir: ");
 		tecla = teclado.nextInt();
 		System.out.println(tecla);
-	}
+	}while(tecla!=0);
 		
-		
+	System.out.println("");
+	System.out.println("Fin del programa.");
 	// Que no muestre los numeros que metemos por teclado hasta cuando el usuario meta el numero 0
 	
 	
